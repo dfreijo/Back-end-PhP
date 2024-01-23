@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(243, 243, 230);
+}
+
+.row {
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 700px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.text-register {
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary {
+    max-width: 130px;
+    margin-top: 35px;
+    margin-bottom: 0;
+    display: block;
+    background-color: #f1904e !important; 
+    color: #ffffff;     
+}
+
+/* css EDIT_EVENTO */
+.lista-actos {
+    display: block;
+    flex-direction: column;
+}
+
+.acto {
+    display: block;
+    align-items: center;
+    justify-content: space-between; 
+    margin-top: 25px;
+}
+
+.btn-editar-ponente,
+.btn-editar-acto {
+    max-width: 100px;
+    max-height: 30px;
+    margin-left: 20px;
+    display: inline-flex;
+    align-items: center;
+    background-color: #f1904e !important;
+    color: #ffffff;
+    float: right;
+    
+}
+
+.formulario-editar-tipoActo.border,
+form.formulario-editar-acto.border {
+    margin-top: 25px;
+}
+
+/* css PONENTE */
+#btnMostrarFormulario{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #f1904e !important;
+    color: #ffffff;
+    
+    
+}
+.btn-agregar {
+    max-width: 150px;
+    max-height: 30px;
+    margin-left: 80px;
+    display: inline-flex;
+    align-items: center;
+    background-color: #f1904e !important;
+    color: #ffffff;
+    float: right;
+}
+
+
+#formularioCrearPonente {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.ponente {
+    display: block;
+    align-items: center;
+    justify-content: space-between; 
+    margin-top: 25px;
+}
+
+form.formulario-editar-ponente.border {
+    margin-top: 25px;
+}
+
+.button-container {
+    display: grid;
+    justify-content: space-between;
+}
+
+.btn-danger{
+    margin-top: 35px;
+}
+
+/* css TIPOACTO */
+
+.tipoActo {
+    display: block;
+    align-items: center;
+    justify-content: space-between; 
+    margin-top: 25px;
+}
+
+#formularioCrearTipoActo {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 65px !important;
+}
+

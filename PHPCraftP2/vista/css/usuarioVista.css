@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(243, 243, 230) !important;
+}
+
+.container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.lead {
+    font-weight: 400 !important;
+    margin-bottom: 80px;
+}
+
+.jumbotron {
+    background-color: white !important;
+}
+
+.btn-primary {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 140px;
+    background-color: #f1904e !important; 
+    color: #ffffff;  
+}
+.btn-primary.usuario {
+    width: 140px;
+    background-color: #f1904e !important; 
+    color: #ffffff;  
+}
+
+.btn-primary.calendario {
+    width: 80px;
+    margin-top: 30px;
+    background-color: #f1904e !important; 
+    color: #ffffff;  
+
+}
+.botones-calendario {
+    margin-bottom: 50px;
+}
+
+.calendar {
+    max-width: 1000px;
+    margin: 25px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background-color: aliceblue;
+
+}
+.week {
+    max-width: 1000px;
+    margin-top: 0px;
+    background-color: aliceblue;
+    display: inline-flex !important;
+    border-radius: 10px;
+}
+
+.semana {
+    background-color: aliceblue;
+    padding-bottom: 25px;
+}
+
+.dia {
+    background-color: aliceblue;
+    margin-bottom: 10px;
+    padding-bottom: 25px;
+}
+
+.day {
+    border: 1px solid #ccc;
+    font-size: 12px;
+}
+
+.hour-table td {
+    font-size: 12px;
+}
+
+.event-day {
+    background-color: red;
+    color: white;
+}
+
+.event-day-green {
+    background-color: lightgreen; /* Cambia el color de fondo a verde */
+}
+
+.green-cell {
+    background-color: lightgreen; /* Cambia el color de fondo a verde claro */
+    color: black; /* Cambia el color del texto a negro */
+}
+
+/* Estilos para celdas coincidentes con $diasActos y $horasActos */
+.red-cell {
+    background-color: lightcoral; /* Cambia el color de fondo a coral claro */
+    color: white; /* Cambia el color del texto a blanco */
+}
+
+.container-inscritos {
+    width: 50%; /* Ancho del contenedor */
+    margin: 0 auto; /* Establecer márgenes automáticos a izquierda y derecha para centrar */
+}
+
+.btn-primary.inscribirse {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    width: 105px;
+    background-color: #f1904e !important; 
+    color: #ffffff;  
+}
+
+.btn-primary.button-cerrar {
+    width: 120px;
+    background-color: #f1904e !important; 
+    color: #ffffff;  
+    float: right;
+}

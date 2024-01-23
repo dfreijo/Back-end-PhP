@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(243, 243, 230);
+    margin: 0; 
+    padding: 0; 
+}
+
+.principal {
+    display:flexbox;
+    min-height: 75vh;
+    min-width: 700px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50x;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 5px;
+    background-color: white;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-around ; 
+    align-items: center; 
+    gap: 10px;
+}
+
+.button-group {
+    display: block;
+    gap: 20px; /* Espaciado entre los botones dentro del grupo */
+}
+
+.button-ponente, 
+.button-crear-tipoActo,
+.button-configurar-inscritos,
+.button-editar-evento {
+    margin-top: 40px;
+    padding: 0;
+    width: 300px;
+    height: 200px; 
+    background-color: #f1904e;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 5px; 
+    border-color: black;
+}
+.button-ponente:hover, 
+.button-crear-tipoActo:hover,
+.button-configurar-inscritos:hover,
+.button-editar-evento:hover {
+    background-color: #f1904e;
+    color: black;
+    opacity: 0.5;
+}
+
+.button-atras {
+    margin-top: 40px;
+    padding: 0;
+    width: 80px;
+    height: 35px; 
+    background-color: #f1904e;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center; 
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 5px; 
+    border-color: black;
+}
+
+.button-atras:hover {
+    background-color: #f1904e;
+    color: rgb(255, 255, 255);
+    
+}
+
+

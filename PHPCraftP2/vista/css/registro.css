@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(243, 243, 230);
+}
+
+.row {
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    min-width: 500px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.text-register {
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.btn-primary {
+    max-width: 130px;
+    margin-top: 35px;
+    margin-bottom: 0;
+    display: block;
+    background-color: #f1904e !important; 
+    color: #ffffff;     
+}
+
+.inscripcion {
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.btn-primary.btn-inscripcion {
+    max-width: 130px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    display: block; 
+    background-color: #f1904e !important;
+    color: #ffffff;
+}

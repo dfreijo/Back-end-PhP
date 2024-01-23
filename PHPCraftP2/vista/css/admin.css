@@ -1,0 +1,85 @@
+
+body {
+    background-color: rgb(243, 243, 230);
+    margin: 0; /* Asegura que no haya margen externo en el body */
+    padding: 0; /* Asegura que no haya padding externo en el body */
+}
+
+.principal {
+    display:flexbox;
+    min-height: 65vh;
+    min-width: 700px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding-top: 50px;
+    padding-bottom: 50x;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 5px;
+    background-color: white;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    margin-top: 20px; 
+    padding: 50px;
+}
+.button-crear-evento {
+    width: 450px;
+    height: 350px; 
+    background-image: url('../../assets/images/crear.jpg'); 
+    background-size: 80%;
+    background-position:  center 30px; 
+    opacity: 0.4;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center; 
+    display: flex; 
+    align-items: start; 
+    justify-content: center; 
+    border-radius: 5px; 
+    border-color: black;
+}
+
+.button-crear-evento:hover {
+    opacity: 1;
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+}
+
+.button-configurar-evento {
+    width: 450px;
+    height: 350px; 
+    margin-left: 10px;
+    background-image: url('../../assets/images/configurar.jpg'); 
+    background-size: 80%;
+    background-position:  center 30px; 
+    opacity: 0.4;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center; 
+    display: flex; 
+    align-items: start; 
+    justify-content: center; 
+    border-radius: 5px; 
+    border-color: black;
+}
+
+.button-configurar-evento:hover {
+    opacity: 1;
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+}
+
+
+
+
+.button-cerrar {
+    width: 120px;
+    background-color: #f1904e !important; 
+    color: #ffffff;  
+    float: right;
+}

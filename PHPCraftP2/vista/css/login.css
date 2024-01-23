@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(243, 243, 230);
+}
+
+.row {
+    min-height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-login {
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary {
+    max-width: 130px;
+    margin-top: 40px;
+    background-color: #f1904e !important; 
+    color: #ffffff;     
+}
+
+.btn-secondary {
+    max-width: 130px;
+    margin-top: 40px;
+    background-color: #f1904e !important; 
+    color: #ffffff;     
+}
